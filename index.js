@@ -1,3 +1,4 @@
+import { analyzeArray } from "./analyze-array.js";
 /*const string = 321; 
 const splitString = string.split("");
 console.log(string.split(""));
@@ -20,4 +21,11 @@ export const calculator = {
     multiply: (a, b) => a * b
 }
 
-console.log(calculator.add(1));
+//console.log(calculator.add(1));
+
+const obj = analyzeArray([5]);
+
+console.log(obj);
+
+//console.log(-1 + -2 + 3 + -8);
+
