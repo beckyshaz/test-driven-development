@@ -33,5 +33,5 @@ test("argument passed is an array && each array element is a number", () => {
 
 test("array with one argument", () => {
     const obj = analyzeArray([5])
-    expect(obj).toEqual({average: 5, min: 5, max: 5, length: 5})
+    expect(obj).toEqual({average: 5, min: 5, max: 5, length: 1})
 })
